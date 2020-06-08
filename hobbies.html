@@ -9,17 +9,18 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title> Skills </title>
+  <title> Hobbies </title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Thasadith' rel='stylesheet'>
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
@@ -60,6 +61,73 @@
   background-color: gray;
 
   }
+
+  .row {
+    display: -ms-flexbox;  IE 10
+    display: flex;
+    -ms-flex-wrap: wrap; IE 10
+    flex-wrap: wrap;
+    padding: 4px;
+  }
+  .column {
+  float: center;
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 05 px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+.text{
+  font-family: Montserrat;
+  color: slategray;
+}
+
+.polaroid a {
+    background: #ffffff;
+    display: inline;
+    float: left;
+    margin: 15px 15px 15px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+
+  }
+  .polaroid a:after {
+    color: #333;
+    font-size: 15px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+
+  }
+  .polaroid img {
+    display: block;
+    width: 200px;
+    height: 84%;
+  }
+  .polaroid a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+
+
   </style>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-lowercase md-auto">
@@ -76,7 +144,7 @@
           <a class="nav-link js-scroll-trigger" href="./random.html" role="button"> <font color = "white">random</font> </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="file:///Users/rachellee2022/Downloads/Resume_Lee_Rachel%20(1).pdf" role="button"> <font color = "white">resume</font> </a>
+          <a class="nav-link js-scroll-trigger" href="./Resume_LeeRachel.pdf" role="button"> <font color = "white">resume</font> </a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="./about.html" role="button"> <font color = "white">about</font> </a>
@@ -85,3 +153,102 @@
       </div>
     </div>
   </nav>
+
+  <section class="page-section" id="about">
+    <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br> <br> <br>
+          <h2 class="section-heading text-UPPERcase" style = "color: dimgray; font-family: 'Montserrat' ;font-size:35px;">
+            HOBBIES </h2> <br>
+          </div>
+
+      <div class="col-lg-12 text-center">
+      <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> photography</h3>
+        <div class="text">
+        <div class="row">
+        <div class="column">
+          <div class="polaroid">
+            <a  title="Cascadilla Gorge">
+          <img src="img/portfolio/waterfall.JPG" >
+
+          <!-- <p> <br> Cascadilla Gorge </p> -->
+        </a>
+      </div>
+
+        </div>
+        <div class="column">
+          <div class="polaroid">
+            <a title="Cornell Ornithology">
+          <img src="img/portfolio/forest.JPG" >
+
+          <!-- <p> <br> Cornell Lab of Ornithology </p> -->
+        </a>
+      </div>
+        </div>
+
+        <div class="column">
+          <div class="polaroid">
+            <a title=" Cornell University">
+          <img src="img/portfolio/cherryblossoms.JPG" >
+          <!-- <p> <br> Cornell University </p> -->
+        </a>
+      </div>
+        </div>
+
+        <div class="column">
+          <div class="polaroid">
+            <a title="Cornell Dairy Barn">
+          <img src="img/portfolio/cow.JPG" >
+          <!-- <p> <br> Cornell Lab of Ornithology </p> -->
+        </a>
+      </div>
+        </div>
+        </div>
+
+        <br> <br>
+        <div class="col-lg-12 text-center">
+        <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> music </h3>
+          <div class="row">
+          <div class="column">
+            <img src="img/portfolio/anne.JPG" style= "width:80%; height: 84%">
+            <p> <br> My Piano Teacher, Anne Bader </p>
+          </div>
+          <div class="column">
+            <img src="img/portfolio/carnegie.JPG" style= "width:80%; height: 84%" >
+            <p> <br> Carnegie Hall </p>
+          </div>
+          <div class="column">
+            <img src="img/portfolio/band.JPG" style= "width:80%;height: 84%">
+            <p> <br> Blue Thunder Band </p>
+          </div>
+          </div>
+
+          <br> <br> <div class="col-lg-12 text-center">
+          <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> baking </h3>
+            <div class="row">
+            <div class="column">
+              <img src="img/portfolio/waterfall.JPG" style= "width:80%; height: 84%">
+            </div>
+            <div class="column">
+              <img src="img/portfolio/cherryblossoms.JPG" style= "width:80%" >
+            </div>
+            <div class="column">
+              <img src="img/portfolio/forest.JPG" style= "width:80%;height: 84%">
+            </div>
+            </div>
+
+            <div class="col-lg-12 text-center">
+            <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> eating... </h3>
+              <div class="row">
+              <div class="column">
+                <img src="img/portfolio/waterfall.JPG" style= "width:80%; height: 84%">
+              </div>
+              <div class="column">
+                <img src="img/portfolio/cherryblossoms.JPG" style= "width:80%" >
+              </div>
+              <div class="column">
+                <img src="img/portfolio/forest.JPG" style= "width:80%;height: 84%">
+              </div>
+              </div>
