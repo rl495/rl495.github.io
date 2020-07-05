@@ -72,13 +72,14 @@
   .column {
   float: center;
   -ms-flex: 25%; /* IE 10 */
-  flex: 25%;
+  flex: 20%;
   padding: 05 px;
 }
 
 .column img {
   margin-top: 0px;
   vertical-align: middle;
+
 }
 
 .text{
@@ -126,6 +127,27 @@
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
   }
+
+  amin {
+    /* width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold; */
+    position: relative;
+    animation: mymove 8s infinite;
+  }
+
+  #amin1 {animation-timing-function: ease-in-out;}
+  #amin2 {animation-timing-function: ease-in;}
+  #amin3 {animation-timing-function: ease-out;}
+  #amin4 {animation-timing-function: linear;}
+  #amin5 {animation-timing-function: ease;}
+
+  @keyframes mymove {
+from {left: -1200px;}
+to {left: 1500px;}
+}
+
 
 
   </style>
@@ -209,35 +231,51 @@
 
         <br> <br>
         <div class="col-lg-12 text-center">
-        <div style="background-image: url('img/portfolio/music3.png');background-size: 100% 100%">
+
+        <amin id="amin1"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
+        <amin id="amin2"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
+        <amin id="amin4"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
+        <!-- <div style="background-image: url('img/portfolio/music3.png');background-size: 100% 100%"> -->
         <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> music </h3>
           <div class="row">
           <div class="column">
-            <img src="img/portfolio/anne.JPG" style= "width:80%; height: 84%">
+            <amin id="amin1"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
+            <img src="img/portfolio/anne.JPG" style= "width:80%; height: 84%; ">
+            <amin id="amin4"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
             <p> <br> My Piano Teacher, Anne Bader </p>
+            <amin id="amin2"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
           </div>
           <div class="column">
+            <amin id="amin5"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
             <img src="img/portfolio/carnegie.JPG" style= "width:80%; height: 84%" >
+            <amin id="amin3"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
             <p> <br> Carnegie Hall </p>
+            <amin id="amin4"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
           </div>
           <div class="column">
+            <amin id="amin1"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
             <img src="img/portfolio/band.JPG" style= "width:80%;height: 84%">
+            <amin id="amin4"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
             <p> <br> Blue Thunder Band </p>
+            <amin id="amin5"> <img src="img/musicnote.png" height="30" width="30"> </img> </amin>
           </div>
           </div>
           </div>
+
+
+
 
           <br> <br> <div class="col-lg-12 text-center">
           <h3 style= "color: gray; font-family: 'Montserrat';font-size: 25px"> baking </h3>
             <div class="row">
             <div class="column">
-              <img src="img/portfolio/waterfall.JPG" style= "width:80%; height: 84%">
+              <img src="img/portfolio/macaronsxmas.JPG"style= "width:80%" >
             </div>
             <div class="column">
-              <img src="img/portfolio/cherryblossoms.JPG" style= "width:80%" >
+              <img src="img/portfolio/bearcookies.JPG"  style= "width:80%">
             </div>
             <div class="column">
-              <img src="img/portfolio/forest.JPG" style= "width:80%;height: 84%">
+              <img src="img/portfolio/bdaycake.JPG" style= "width:80%">
             </div>
             </div>
 
